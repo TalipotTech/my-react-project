@@ -5,7 +5,11 @@ import GoalItem from './GoalItem.jsx';
 function GoalList() {
   return (
     <ul>
-      <GoalItem title='Teach React in a highly-understandable way'>
+        <GoalItem id="g1"  >Finish the book!</GoalItem>
+  <GoalItem id="g2" >Learn all about React!</GoalItem>
+       {/* <GoalItem id="g1" title="Finish the book!" />
+  <GoalItem id="g2" title="Learn all about React!" /> */}
+      {/* <GoalItem title='Teach React in a highly-understandable way'>
         I want to ensure, that you get the most out of this book and you learn
         all about React!
       </GoalItem>
@@ -18,7 +22,7 @@ function GoalList() {
         As a developer, learning never ends. I want to ensure that you enjoy
         learning and you're motivated to dive into advanced (React) resources
         after finishing this book. Maybe my complete React video course?
-      </GoalItem>
+      </GoalItem> */}
     </ul>
     // <ul>
     //   <FirstGoal />

@@ -11,12 +11,15 @@ function Greeting() {
 
 function App() {
   
-
+//   const user = {name: 'Max', age: 29};
+// const {name, age} = user; // <-- object destructuring in action
+// console.log(name); // outputs 'Max'
   return (
      <>
       <Header />
       <main>
         <GoalList />
+        
       </main>
     </>
     //  <>
