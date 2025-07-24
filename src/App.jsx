@@ -5,20 +5,32 @@ import './App.css'
 import maxImg from './assets/jobs.jpg';
 import GoalList from './components/GoalList.jsx';
 import Header from './components/Header.jsx';
+
+import Profile from './components/Profile.jsx';
+import Gallery from './components/props/Gallery.jsx';
 function Greeting() {
   return <p>Welcome to this book!</p>;
 };
+
+
 
 function App() {
   
 //   const user = {name: 'Max', age: 29};
 // const {name, age} = user; // <-- object destructuring in action
 // console.log(name); // outputs 'Max'
+//const person= {name: 'Katsuko Saruhashi', imageId: 'YfeOqp2'};
+//const config = { person: person, size: 100, thickness: 2, color: 'black', borderRadius: '10%' };
   return (
      <>
       <Header />
       <main>
-        <GoalList />
+        <Gallery/>
+{/* <Profile /> */}
+        {/* <GoalList /> */}
+        {/* <Profile {...config} /> */}
+
+    
         
       </main>
     </>

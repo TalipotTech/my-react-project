@@ -3,10 +3,21 @@ import SecondGoal from './SecondGoal.jsx';
 import ThirdGoal from './ThirdGoal.jsx';
 import GoalItem from './GoalItem.jsx';
 function GoalList() {
+  const goalData = {title: 'A book', days: 10, id: 'g1'};
   return (
+    
     <ul>
-        <GoalItem id="g1"  >Finish the book!</GoalItem>
-  <GoalItem id="g2" >Learn all about React!</GoalItem>
+      <GoalItem  data={goalData}  >
+        I want to ensure, that you get the most out of this book and you learn
+        all about React!
+
+  </GoalItem>
+      
+
+
+    
+        {/* <GoalItem id="g1"  >Finish the book!</GoalItem>
+  <GoalItem id="g2" >Learn all about React!</GoalItem> */}
        {/* <GoalItem id="g1" title="Finish the book!" />
   <GoalItem id="g2" title="Learn all about React!" /> */}
       {/* <GoalItem title='Teach React in a highly-understandable way'>
