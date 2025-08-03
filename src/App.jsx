@@ -8,6 +8,12 @@ import Header from './components/Header.jsx';
 
 import Profile from './components/Profile.jsx';
 import Gallery from './components/props/Gallery.jsx';
+import StateAndEvents from './components/StateAndEvents.jsx';
+import Events from './components/Events.jsx';
+import Form from './components/props/state/StateEx.jsx';
+import Redundant from './components/props/state/Redundant.jsx';
+import Accordion from './components/props/state/SharingState.jsx';
+import PreserveState from './components/props/state/PreserveState.jsx';
 function Greeting() {
   return <p>Welcome to this book!</p>;
 };
@@ -25,7 +31,13 @@ function App() {
      <>
       <Header />
       <main>
-        <Gallery/>
+        <PreserveState />
+        {/* <Accordion /> */}
+        {/* <Redundant /> */}
+        {/* <Form /> */}
+        {/* <Events /> */}
+         {/* <Toolbar /> */}
+        {/* <Gallery/> */}
 {/* <Profile /> */}
         {/* <GoalList /> */}
         {/* <Profile {...config} /> */}
