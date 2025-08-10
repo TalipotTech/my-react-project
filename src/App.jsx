@@ -14,6 +14,11 @@ import Form from './components/props/state/StateEx.jsx';
 import Redundant from './components/props/state/Redundant.jsx';
 import Accordion from './components/props/state/SharingState.jsx';
 import PreserveState from './components/props/state/PreserveState.jsx';
+import SyncedInputs from './components/props/state/challenges/StateChallenge1.jsx';
+import FilterableList from './components/props/state/challenges/StateChallenge2.jsx';
+import CounterState from './components/props/state/Counter.jsx';
+import CounterSamePos from './components/props/state/CounterSamePos.jsx';
+import CounterDiffPos from './components/props/state/CounterDiffPos.jsx';
 function Greeting() {
   return <p>Welcome to this book!</p>;
 };
@@ -31,7 +36,12 @@ function App() {
      <>
       <Header />
       <main>
-        <PreserveState />
+       {/* <CounterSamePos /> */}
+       <CounterDiffPos />
+        {/* <Counter /> */}
+      {/* <FilterableList /> */}
+        {/* <SyncedInputs /> */}
+        {/* <PreserveState /> */}
         {/* <Accordion /> */}
         {/* <Redundant /> */}
         {/* <Form /> */}

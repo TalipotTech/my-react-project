@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function Redundant() {
-  const [firstName, setFirstName] = useState('');
+  const [firstName, setFirstName] = useState('No data');
   const [lastName, setLastName] = useState('');
   //const [fullName, setFullName] = useState('');
   const fullName = firstName + ' ' + lastName; // here fullName is const but value is changing based on state changes of firstName and lastName
