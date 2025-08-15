@@ -37,8 +37,8 @@ function App() {
       <Header />
       <main>
        {/* <CounterSamePos /> */}
-       <CounterDiffPos />
-        {/* <Counter /> */}
+       {/* <CounterDiffPos /> */}
+        <CounterState />
       {/* <FilterableList /> */}
         {/* <SyncedInputs /> */}
         {/* <PreserveState /> */}
