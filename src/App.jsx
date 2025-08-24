@@ -19,6 +19,9 @@ import FilterableList from './components/props/state/challenges/StateChallenge2.
 import CounterState from './components/props/state/Counter.jsx';
 import CounterSamePos from './components/props/state/CounterSamePos.jsx';
 import CounterDiffPos from './components/props/state/CounterDiffPos.jsx';
+import TaskApp from './components/props/state/reducer/TaskApp.jsx';
+import ContextPage from './components/props/context/withcontext/ContextPage.jsx';
+import ProfilePage from './components/props/context/intermediate/ProfilePage.jsx';
 function Greeting() {
   return <p>Welcome to this book!</p>;
 };
@@ -36,9 +39,12 @@ function App() {
      <>
       <Header />
       <main>
+        <ProfilePage />
+        {/* <ContextPage /> */}
+        {/* <TaskApp /> */}
        {/* <CounterSamePos /> */}
        {/* <CounterDiffPos /> */}
-        <CounterState />
+        {/* <CounterState /> */}
       {/* <FilterableList /> */}
         {/* <SyncedInputs /> */}
         {/* <PreserveState /> */}
